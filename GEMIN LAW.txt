@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang=”en”>
+<head>
+    <meta charset=”UTF-8”>
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+    <title>WANASHERIA ACADEMY</title>
+    <style>
+        Body {
+            Font-family: Arial, sans-serif;
+            Margin: 0;
+            Padding: 0;
+            Color: #333;
+            Background-color: #f0f0f0;
+        }
+
+        Header {
+            Background-color: #444;
+            Color: white;
+            Text-align: center;
+            Padding: 1rem;
+        }
+
+        .container {
+            Display: flex;
+        }
+
+        Nav {
+            Width: 220px;
+            Background-color: #e0e0e0;
+            Padding: 1rem;
+        }
+
+        Nav ul {
+            List-style-type: none;
+            Padding: 0;
+        }
+
+        Nav ul li {
+            Margin: 1rem 0;
+        }
+
+        Nav ul li a {
+            Text-decoration: none;
+            Color: #007acc;
+            Font-weight: bold;
+        }
+
+        Nav ul li a:hover {
+            Text-decoration: underline;
+        }
+
+        Main {
+            Flex: 1;
+            Padding: 2rem;
+            Background-color: white;
+            Box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        Section {
+            Margin-bottom: 2rem;
+        }
+
+        Footer {
+            Background-color: #444;
+            Color: white;
+            Text-align: center;
+            Padding: 1rem;
+            Position: fixed;
+            Width: 100%;
+            Bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>WANASHERIA ACADEMY</h1>
+    </header>
+    <div class=”container”>
+        <nav>
+            <ul>
+                <li><a href=”#constitutional-law”>Constitutional Law</a></li>
+                <li><a href=”#criminal-law”>Criminal Law</a></li>
+                <li><a href=”#civil-law”>Civil Law</a></li>
+                <li><a href=”#contract-law”>Contract Law</a></li>
+                <li><a href=”#tort-law”>Tort Law</a></li>
+                <li><a href=”#succession-trust-law”>Succession & Trust Law</a></li>
+                <li><a href=”#family-law”>Family Law</a></li>
+                <li><a href=”#administrative-law”>Administrative Law</a></li>
+                <li><a href=”#international-law”>International Law</a></li>
+                <li><a href=”#labor-employment-law”>Labor and Employment Law</a></li>
+                <li><a href=”#tax-law”>Tax Law</a></li>
+                <li><a href=”#legal-ethics”>Legal Ethics</a></li>
+                <li><a href=”#adr”>Alternative Dispute Resolution (ADR)</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id=”constitutional-law”>
+                <h2>Constitutional Law</h2>
+                <p>Content about Constitutional Law goes here.</p>
+            </section>
+            <section id=”criminal-law”>
+                <h2>Criminal Law</h2>
+                <p>Content about Criminal Law goes here.</p>
+            </section>
+            <section id=”civil-law”>
+                <h2>Civil Law</h2>
+                <p>Content about Civil Law goes here.</p>
+            </section>
+            <section id=”contract-law”>
+                <h2>Contract Law</h2>
+                <p>Content about Contract Law goes here.</p>
+            </section>
+            <section id=”tort-law”>
+                <h2>Tort Law</h2>
+                <p>Content about Tort Law goes here.</p>
+            </section>
+            <section id=”succession-trust-law”>
+                <h2>Succession & Trust Law</h2>
+                <p>Content about Succession & Trust Law goes here.</p>
+            </section>
+            <section id=”family-law”>
+                <h2>Family Law</h2>
+                <p>Content about Family Law goes here.</p>
+            </section>
+            <section id=”administrative-law”>
+                <h2>Administrative Law</h2>
+                <p>Content about Administrative Law goes here.</p>
+            </section>
+            <section id=”international-law”>
+                <h2>International Law</h2>
+                <p>Content about International Law goes here.</p>
+            </section>
+            <section id=”labor-employment-law”>
+                <h2>Labor and Employment Law</h2>
+                <p>Content about Labor and Employment Law goes here.</p>
+            </section>
+            <section id=”tax-law”>
+                <h2>Tax Law</h2>
+                <p>Content about Tax Law goes here.</p>
+            </section>
+            <section id=”legal-ethics”>
+                <h2>Legal Ethics</h2>
+                <p>Content about Legal Ethics goes here.</p>
+            </section>
+            <section id=”adr”>
+                <h2>Alternative Dispute Resolution (ADR)</h2>
+                <p>Content about ADR goes here.</p>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <p>&copy; 2024 WANASHERIA ACADEMY. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
